@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+
+#error {
+  text-align: center;
+  color: red;
+  height: 30px;
+  width: 100px;
+  margin: auto;
+}
+
+.calc {
+  height: 310px;
+  width: 250px;
+  margin: auto;
+  background-color: silver;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
+.calc__result {
+  width: 249px;
+  height: 50px;
+  margin-bottom: 5px;
+  border: 1px solid gray;
+  background-color: black;
+  color: white;
+  font-size: 34px;
+  text-align: right;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.calc__equalto {
+  width: 240px;
+  height: 30px;
+  background-color: #5858e0;
+  color: white;
+  margin-top: 5px;
+}
+.calc__keys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 5px;
+}
+.calc__keys button {
+  height: 50px;
+  width: 50px;
+  font-size: 18px;
+}
+.calc__keys--oper {
+  color: blue;
+}
+.calc__keys--ac {
+  background-color: indianred;
+  color: white;
+}
